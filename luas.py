@@ -1,6 +1,5 @@
 import os
 
-
 os.system("cls")
 #luas persegi panjang
 def luas_persegi_panjang(panjang,lebar):
@@ -36,3 +35,22 @@ hasil = luas_lingkaran(diameter)
 print(f"Luas Lingkaran : {hasil}")
 print(30*"=")
 
+def luas_persegi(sisi):
+    return sisi * sisi
+
+sisi = int(input("masukkan panjang sisi : ")
+           
+hasil = luas_persegi(sisi)
+print(f"Luas Persegi Adalah : {hasil}")
+print(30*"=")
+
+def luas_trapesium(a,b,t):
+    return ((1/2) * (a + b)) * t
+
+a = int(input("masukkan sisi sejajar(pendek) : ")
+b = int(input("masukkan sisi sejajar(panjang) : ")
+t = int(input("masukkan tinggi : ")
+
+hasil = luas_trapesium(a,b,t)
+print(f"Hasil Trapesium Adalah : {hasil}")
+print(30*"=")

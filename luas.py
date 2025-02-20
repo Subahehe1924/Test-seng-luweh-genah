@@ -36,3 +36,23 @@ hasil = luas_lingkaran(diameter)
 print(f"Luas Lingkaran : {hasil}")
 print(30*"=")
 
+def luas_persegi(sisi):
+    return sisi*sisi
+
+sisi = int(input("masukkan panjang sisi :")
+
+hasil = luas_persegi(sisi)
+print(f"Luas Persegi adalah : {hasil}")
+print(30*"=")
+
+def volume_balok(p,l,t):
+    return p * l * t
+
+p =int(input("masukkan panjang balok : ")
+l =int(input("masukkan lebar balok : ")
+t =int(input("masukkan tinggi balok : ")
+
+hasil = volume_balok(p,l,t)
+print(f"Volume Balok adalah : {hasil}")
+print(30 * "=")
+p =int(input("masukkan panjang balok : ")

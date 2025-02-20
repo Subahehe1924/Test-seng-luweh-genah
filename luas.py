@@ -1,6 +1,5 @@
 import os
 
-
 os.system("cls")
 #luas persegi panjang
 def luas_persegi_panjang(panjang,lebar):

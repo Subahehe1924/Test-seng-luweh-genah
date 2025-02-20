@@ -36,21 +36,22 @@ print(f"Luas Lingkaran : {hasil}")
 print(30*"=")
 
 def luas_persegi(sisi):
-    return sisi * sisi
+    return sisi*sisi
 
-sisi = int(input("masukkan panjang sisi : ")
-           
+sisi = int(input("masukkan panjang sisi :")
+
 hasil = luas_persegi(sisi)
-print(f"Luas Persegi Adalah : {hasil}")
+print(f"Luas Persegi adalah : {hasil}")
 print(30*"=")
 
-def luas_trapesium(a,b,t):
-    return ((1/2) * (a + b)) * t
+def volume_balok(p,l,t):
+    return p * l * t
 
-a = int(input("masukkan sisi sejajar(pendek) : ")
-b = int(input("masukkan sisi sejajar(panjang) : ")
-t = int(input("masukkan tinggi : ")
+p =int(input("masukkan panjang balok : ")
+l =int(input("masukkan lebar balok : ")
+t =int(input("masukkan tinggi balok : ")
 
-hasil = luas_trapesium(a,b,t)
-print(f"Hasil Trapesium Adalah : {hasil}")
-print(30*"=")
+hasil = volume_balok(p,l,t)
+print(f"Volume Balok adalah : {hasil}")
+print(30 * "=")
+p =int(input("masukkan panjang balok : ")
